@@ -1,6 +1,4 @@
-
 import socket
-
 from hl7apy.parser import parse_message
 from flask import Flask, request, abort
 app = Flask(__name__)
